@@ -27,6 +27,10 @@ target_metadata = None
 # ... etc.
 
 
+from app.core.data import SQLALCHEMY_MYSQL_URI  # noqa
+config.set_main_option('sqlalchemy.url', SQLALCHEMY_MYSQL_URI)
+
+
 def run_migrations_offline():
     """Run migrations in 'offline' mode.
 
