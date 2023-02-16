@@ -7,7 +7,8 @@
 from sqlalchemy import Column, Integer, String, DateTime
 from sqlalchemy.orm import relationship
 from sqlalchemy import ForeignKey
-from core.db.base_class import Base
+from ...core.db.base import Base
+
 
 class Sale (Base):
      __tablename__ = 'sale'
