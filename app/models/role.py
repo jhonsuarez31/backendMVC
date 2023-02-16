@@ -5,7 +5,7 @@
 # Import installed packages
 
 from sqlalchemy import Column,  String
-from app.core.db.base_class import Base
+from core.db.base_class import Base
 
 class Role (Base):
      __tablename__ = 'role'

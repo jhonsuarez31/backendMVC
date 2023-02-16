@@ -7,7 +7,7 @@
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 from sqlalchemy import ForeignKey
-from app.core.db.base_class import Base
+from core.db.base_class import Base
 
 class Element_Cart (Base):
      __tablename__ = 'element_cart'
